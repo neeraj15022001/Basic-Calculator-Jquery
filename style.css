@@ -1,0 +1,76 @@
+* {
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+body {
+    background-color: #fdd4b3;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	overflow: hidden;
+}
+.screen {
+	width:250px;
+	height : 50px;
+	background-color:white;
+	border:2px solid #fa7202;
+	box-sizing:border-box;
+	font-size:40px;
+	direction:ltr;
+	text-align:right;
+	overflow:auto;
+}
+.pad {
+	width:250px;
+	display:flex;
+	justify-content:space-between;
+}
+.operator-pad {
+	width:250px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:5px 0;
+}
+.operator-pad button {
+	background-color:#fa7202;
+	border:none;
+	padding:10px 25px;
+	color:white;
+}
+.pad button {
+	padding:10px 22px;
+}
+.num-pad {
+	width : 75%;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+.first,.second,.third,.fourth {
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	
+	padding:5px 0;
+}
+.equate {
+	background-color: #ffe4cf;
+	width:21%;
+	display:flex;
+	align-items:center;
+	justify-content: center;
+	text-align:center;
+	color:orange;
+}
+button {
+	border: 0;
+	outline: none;
+	transition: 0.1s ease-in-out;
+}
+button:hover {
+	transform: scale(1.1);
+}
